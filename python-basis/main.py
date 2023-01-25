@@ -30,9 +30,22 @@ dog = {
 }
 
 # list
-number_list = [1,5,4,4]
+number_list = [1, 5, 4, 4]
 number_list.pop()
 number_list.sort()
 number1 = number_list.copy()
 
-print(number1)
+
+# functions in python
+
+
+def sum(a, b):
+    return a + b
+
+
+a = 0
+while a <= 10:
+    print(f'{a}')
+    a += 1
+
+print(sum(10, 10))
