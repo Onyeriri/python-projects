@@ -21,4 +21,14 @@ newBoolean1 = False is True
 newBoolean2 = "This" == "This"
 newBoolean3 = False is False
 
-print(newBoolean3)
+# list
+dog = {
+    "name": 'Jack',
+    "legs": 4,
+    "height": 5,
+    "number_of-Teeth": 7
+}
+
+
+
+print(dog["name"])
