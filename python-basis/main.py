@@ -21,7 +21,7 @@ newBoolean1 = False is True
 newBoolean2 = "This" == "This"
 newBoolean3 = False is False
 
-# list
+# dictionary
 dog = {
     "name": 'Jack',
     "legs": 4,
@@ -29,6 +29,10 @@ dog = {
     "number_of-Teeth": 7
 }
 
+# list
+number_list = [1,5,4,4]
+number_list.pop()
+number_list.sort()
+number1 = number_list.copy()
 
-
-print(dog["name"])
+print(number1)
