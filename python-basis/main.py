@@ -71,15 +71,17 @@ image = [
     [0, 0, 0, 1, 0, 0]
 ]
 
-picture = []
+fill = '*'
+empty = ' '
+
 
 for item in image:
-    print("----------")
     for img in item:
-        if img == 1:
-            print("*", end='')
+        if img:
+            print(fill, end='')
         else:
-            print(' ', end='')
+            print(empty, end='')
+    print('')
 
 
 new_range = list(range(1, 11))
