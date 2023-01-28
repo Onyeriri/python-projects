@@ -74,15 +74,24 @@ image = [
 fill = '*'
 empty = ' '
 
-
 for item in image:
     for img in item:
         if img:
-            print(fill, end='')
+            # print(fill, end='')
+            pass
         else:
-            print(empty, end='')
-    print('')
+            # print(empty, end='')
+            pass
+    # print('')
 
+my_list2 = [1, 2, 1, 2, 4, 4, 5, 6, 4, 5, 6, 7, 3, 3, 4, 5, 9, 7, 8, 9, 7]
+remove_duplicate = []
+
+for number in my_list2:
+    if number not in remove_duplicate:
+        remove_duplicate.append(number)
 
 new_range = list(range(1, 11))
-# print(f"New range: {new_range}")
+remove_duplicate.sort()
+remove_duplicate.reverse()
+print(f"New list: {remove_duplicate}")
