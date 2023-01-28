@@ -45,7 +45,21 @@ def sum(a, b):
 
 a = 0
 while a <= 10:
-    print(f'{a}')
+    # print(f'{a}')
     a += 1
 
-print(sum(10, 10))
+# birth_year = input('What\'s your birth year? ')
+# current_year = 2023
+# age = current_year - int(birth_year)
+
+# building a counter
+my_list = [1, 2, 4, 5];
+total = 0;
+counter = 0;
+
+for item in my_list:
+    counter += item
+
+total = counter;
+
+print(f"Total: {total}")
