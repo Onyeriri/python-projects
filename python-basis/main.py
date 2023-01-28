@@ -60,6 +60,27 @@ counter = 0;
 for item in my_list:
     counter += item
 
-total = counter;
+total = counter
 
-print(f"Total: {total}")
+image = [
+    [0, 0, 0, 1, 0, 0],
+    [0, 0, 1, 1, 1, 0],
+    [0, 1, 1, 1, 1, 0],
+    [1, 1, 1, 1, 1, 1],
+    [0, 0, 0, 1, 0, 0],
+    [0, 0, 0, 1, 0, 0]
+]
+
+picture = []
+
+for item in image:
+    print("----------")
+    for img in item:
+        if img == 1:
+            print("*", end='')
+        else:
+            print(' ', end='')
+
+
+new_range = list(range(1, 11))
+# print(f"New range: {new_range}")
