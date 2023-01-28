@@ -1,3 +1,5 @@
+from new_method import method
+
 print('Hello Anaconda')
 num1 = 12
 num2 = 5
@@ -94,4 +96,16 @@ for number in my_list2:
 new_range = list(range(1, 11))
 remove_duplicate.sort()
 remove_duplicate.reverse()
-print(f"New list: {remove_duplicate}")
+
+# map function
+my_list3 = [1, 2, 3]
+
+
+def multipy_by_two(ab):
+    return ab * 2
+
+
+# print(list(map(multipy_by_two, my_list3)))
+# print(f"New list: {remove_duplicate}")
+print(method.add(2, 2))
+print(method.divide(2, 2))
